@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="javaScript/main.js"></script>
+    <script defer src="javaScript/section-bg.js"></script>
+    <script defer src="javaScript/auto-writing.js"></script>
+    <script defer src="javaScript/Random videos & quotes.js"></script>
+    <script defer src="javaScript/heart-animation.js"></script>
+    <script defer src="javaScript/javaScript-Accordion.js"></script>
+    <script defer src="javaScript/Digital-clock.js"></script>
+  </head>
+  <body id="body">
+    <header id="header" class="myheader">
+      <h1 id="website">{My-profile}</h1>
+
+      <nav>
+        <ul class="parent">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="store.html"> Online store </a>
+          </li>
+          <li>
+            <a href="Slideshow.html">More projects</a>
+          </li>
+          <li id="dark" class="mode">Dark mode</li>
+          <li id="changecolor">
+            Change color
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="sec">
+        <h1>Who am I ?</h1>
+
+        <div class="flex">
+          <article class="left-section">
+            <h3>About me</h3>
+
+            <p>
+              I'm 23 years old. I am Egyptian.
+              <br />
+              I graduated from faculty of commerce English
+              <br />
+              section Damietta university.
+              <br />
+              On this page, I will show you my projects.
+            </p>
+            <br />
+            <br />
+
+            <a class="facebook" href="https://www.facebook.com/RaedMegahed"
+              >Facebook</a
+            >
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/in/ra%E2%80%99edmegahed?fbclid=IwAR33sbl-fsm6ZTj-4JmkvjrF2ASB8QDA0meB-2QmrwuEr_oygn9he23Mab4"
+              >Linkedin</a
+            >
+          </article>
+
+          <article class="right-section">
+            <img
+              class="my-img"
+              src="2020_08_11_12_58_IMG_9786rrrr.png"
+              height="200"
+              width="200"
+              alt="ME"
+            />
+
+            <h5>Ra'ed Megahed</h5>
+
+            <p>Owner and founder AlDeiar Stars furniture</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h1 dir="rtl">Random YouTube vid</h1>
+        <div id="parent-myiframe">
+          <div id="container">
+            <iframe
+              id="myiframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/VSJq67ZoFT8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button id="randomvid" class="myButton">Random video</button>
+        </div>
+      </section>
+
+      <section>
+        <h1 dir="rtl">Random quote</h1>
+        <div id="bigparent">
+          <div id="parentquo">
+            <blockquote id="randomquo" class="sidekick">
+              The only thing permanent in life is impermanence.
+              <br />
+              <cite> Thor in Endgame</cite>
+            </blockquote>
+          </div>
+          <button id="randomquobutt" class="myButton">Random quote</button>
+        </div>
+      </section>
+
+      <section>
+        <h1 dir="rtl">Congratulation javaScript</h1>
+
+        <div id="containerheart"></div>
+
+        <button id="randomhearts" class="myButton">Test</button>
+      </section>
+
+      <section>
+        <h1 dir="rtl">javaScript-Accordion</h1>
+
+        <div class="accordion-container">
+          <div class="q1">
+            <div class="text-acc">
+              <h2>What forms of payment are accepted?</h2>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              For online purchases, we accept Visa, MasterCard, American
+              Express, Discover, Diners Club, JCB, and PayPal. You may also pay
+              with Western Union or mail a check or money order or deposit
+              directly to our bank account at a local Wells Fargo branch. Please
+              make checks payable to "Liberty Bellows LLC".
+            </p>
+          </div>
+
+          <div class="q1">
+            <div class="text-acc">
+              <h2>Do you collect sales tax on my purchase?</h2>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              We collect and remit sales tax for all products and services
+              delivered to the state of Pennsylvania only at a rate of 8%
+              (origin of sale is Philadelphia county). While we do not collect
+              sales tax for sales delivered to other states at this time, the
+              purchaser is responsible for timely filing and remitting use tax
+              due to their state or municipality. Please consult a tax
+              professional for additional information in this regard.
+            </p>
+          </div>
+
+          <div class="q1">
+            <div class="text-acc">
+              <h2>Do you offer layaway?</h2>
+
+              <div class="plus">+</div>
+            </div>
+
+            <p class="content">
+              Yes, we are happy to reserve one instrument per customer for 30
+              days with a 20% deposit. The deposit is refundable for store
+              credit only toward any in-stock purchase, without expiration. You
+              may extend the layaway for up to 5 months with current payments of
+              at least 20%. We reserve the right to refund late accounts to
+              store credit and release the hold on the instrument after the
+              scheduled payment due.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 dir="rtl">HTML Accordion</h1>
+
+        <details>
+          <summary>How often do I need to tune my accordion?</summary>
+          <p>
+            Unlike pianos and other string instruments which need to be tuned
+            frequently, accordions will stay in tune for many years if they are
+            maintained properly and not exposed to extreme temperature,
+            humidity, moisture or other adverse conditions. That said,
+            accordions will eventually go out of tune and need to be tuned by a
+            professional. Tuning a neglected accordion can be a big job because
+            each accordion will have hundreds of reeds. Consider a typical
+            professional model: 4 Sets of 41 Treble Reeds = 164 Reeds x 2 Sides
+            = 328 Treble Reed Tongues 5 Sets of 12 Bass Reeds = 60 Reeds x 2
+            Sides = 120 Bass Reed Tongues Total 448 Reed tongues that need to be
+            playing the correct pitch! A proper tuning requires that the reeds
+            first be serviced so that the wax, valve and tongue on each side are
+            positioned properly. Then the reeds need to be filed, pitch tuned,
+            and ultimately fine tuned so they are in tune in the accordion. We
+            are happy to provide full reed servicing and tuning at our shop.
+            Contact us for a repair quote which will depend on the number of
+            reeds that require service and tuning.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h1 dir="rtl">Digital clock</h1>
+        <div id="clockcontainer" class="datecontainer">
+          <div class="date">Tue May 25 2021</div>
+
+          <div class="time">11 : 30 : 05 pm</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="follow">
+        يُمكنك متابعة اخر أخبارنا و الموقع علي
+
+        <a href="https://www.facebook.com/aldeiarstarsfurniture"> الفيسبوك </a>
+      </p>
+
+      <p class="design">Designed and developed by Ra'ed Megahed ©2022</p>
+    </footer>
+  </body>
+</html>
